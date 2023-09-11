@@ -3,7 +3,7 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) { //these keywords here stand out
+    public static void main(int args) { //these keywords here stand out
 
 //        for (int i = 1; i < 100; i++) { //python: for i in range(0,100):
 //
@@ -36,7 +36,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
         if (divisibleBy5 && divisibleBy3) {
